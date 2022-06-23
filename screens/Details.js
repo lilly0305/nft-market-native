@@ -1,8 +1,12 @@
-import { Text } from "react-native"
+import { Text, View, SafeAreaView, Image, StatusBar, FlatList } from "react-native"
 
-const Details = () => {
+const Details = ({ route, navigation }) => {
+  console.log(route)
+
   return (
-    <Text>Details</Text>
+    <View>
+      <Text>DetailsDesc</Text>
+    </View>
   )
 }
 
